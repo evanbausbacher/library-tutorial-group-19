@@ -120,7 +120,19 @@ for elem in np.nditer(threeArr):
 5. Joining and Spliting arrays using NumPy
 
 ```
-
+# Join two arrays and put them into one array using the concatenate() method
+x = np.array([1,2,3,4])
+y = np.array([5,6,7,8])
+xy = np.concatenate((x,y))
+print(xy)
+```
+```
+# Split array into seperate arrays by giving number of arrays to split into with array_split()
+#  Returns array of new arrays
+arr = np.array([1,2,3,4,5,6,7,8,9,10])
+newArrays = np.array_split(arr, 5)
+print(newArrays)
+print(newArrays[0]) # First array in the list of arrays
 ```
 6. Searching and Sorting arrays using NumPy
 
