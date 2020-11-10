@@ -53,16 +53,47 @@ print(multiArr)
 print('number of dimensions {}'.format(multiArr.ndim))
 ```
 2. Index and Slice arrays using NumPy
+
 ```
 # Index a 1-D array
 print(oneArr[1]) # prints the second element in the array 
+
 # Slice a 1-D array 
 print(oneArr[2:4]) # prints the third and fourth element since the end index is excluded 
 ```
-
+```
+# Index a 2-D array
+print(twoArr[1,2]) 
+```
+```
+# Slice a 2-D array
+print(twoArr[0,1:3])
+```
+```
+# Slice without specifying start index
+print(oneArr[:3])
+```
+```
+# Slice without specifying end index 
+print(oneArr[1:])
+```
+```
+# Negative Slicing
+print(oneArr[-3:-1])
+```
 3. Shaping and Reshaping arrays using NumPy
 
-
+```
+# Shape of the arrays created 
+print('shape of 1-D array: {}'.format(oneArr.shape))
+print('shape of 2-D array: {}'.format(twoArr.shape))
+```
+```
+# Reshaping a 1d array to a 2d array
+arr = np.array([1,2,3,4,5,6,7,8])
+reshapedArr = arr.reshape(4,2)
+print(reshapedArr)
+```
 4. Iterating arrays using NumPy
 
 
