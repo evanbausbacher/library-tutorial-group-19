@@ -96,9 +96,34 @@ print(reshapedArr)
 ```
 4. Iterating arrays using NumPy
 
-
+```
+# Iterate a 1-D array using the basic for-loop in python
+for elem in oneArr:
+    print(elem)
+```
+```
+# Iterate a 2-D array where lists are printed instead of the individual 2-D elements
+for elem in twoArr:
+    print(elem)
+```
+```
+# Iterate a 2-D array where each individual 2-D element is printed
+for row in twoArr:
+    for col in row:
+        print(col)
+```
+```
+# Iterate using the numpy nditer() which helps iterate n dimensional arrays without for-loops
+for elem in np.nditer(threeArr):
+    print(elem)
+```
 5. Joining and Spliting arrays using NumPy
 
+```
 
+```
 6. Searching and Sorting arrays using NumPy
 
+```
+
+```
