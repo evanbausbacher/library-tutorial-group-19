@@ -1,5 +1,12 @@
 # NumPy Tutorial
 
+## Learning Objectives:
+
+After this tutorial, you should be able to…
+*<Objective 1>
+*<Objective 2>
+*<Objective 3>
+
 ## Installation:
 
 To install with `pip`, you can use the following command in your terminal: 
@@ -17,4 +24,4 @@ To setup your NumPy environment, you can use the following Python code at the to
 ```import numpy```
 
 
-## Use:
+## Use NumPy:
