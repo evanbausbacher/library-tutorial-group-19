@@ -125,5 +125,30 @@ for elem in np.nditer(threeArr):
 6. Searching and Sorting arrays using NumPy
 
 ```
-
+# Find the index of a particular element
+x = np.where(oneArr == 3)
+print(x)
+```
+```
+# Find indices for even elements
+x = np.where(oneArr%2 == 0)
+print(x)
+```
+```
+# Find indices for odd elements
+x = np.where(oneArr%2 == 1)
+print(x)
+```
+```
+# Using the searchsorted() method to find the index of where to place an element to maintain
+#  sort in the array assumes the array to be used on is sorted.
+arr = np.array([1,3,5,7,8,10,15])
+x = np.searchsorted(arr, 9)
+print(x)
+```
+```
+# Sort an array using the sort() method
+arr = np.array([1,2,9,67,3,105,10,12])
+sortedArr = np.sort(arr)
+print(sortedArr)
 ```
