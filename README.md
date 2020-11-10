@@ -12,4 +12,9 @@ To install with `conda`, you can use the following command in you terminal:
 
 ## Setup:
 
+To setup your NumPy environment, you can use the following Python code at the top of your script:
+
+```import numpy```
+
+
 ## Use:
